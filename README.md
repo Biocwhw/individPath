@@ -25,6 +25,8 @@ Value:
 
 Two text files correspond to "individPath_BH_result" and "individPath_pvalue_result", respectively.
 
+
+
 2 function-individPathCal(CaseData, StableGP, ReversalGP, NumStable, PathGP)
 
 Description:
@@ -46,6 +48,8 @@ PathGP--the number of stable intra-pathway gene pairs in each pathway.
 Value:
 
 A numeric matrix containing the p-value and adjusted-pvalue of each pathway dysregulated in individual patients.
+
+
 
 3 function-SRGgenePair(ControlData, CaseData, PathData, cutoff)
 
